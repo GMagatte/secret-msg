@@ -13,11 +13,11 @@
   text-align: center;
 }
 
-.link {
+/* .createMsgBtn a {
   text-decoration: none;
   color: #257953;
   pointer-events: none;
-}
+} */
 
 .form {
     display: flex;
