@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(32, 32, 32);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #257953;
+  pointer-events: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form button {
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.formbox-container p {
+    margin-bottom: 15px;
+}
+
+.formbox-container {
+    text-align: center;
+}
+
+
+.hiddenMessage .msg-text {
+    margin-bottom: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-container {
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+
+.hide {
+  display: none;
+}
+
+.receivedMsg {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}

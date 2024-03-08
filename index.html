@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Secret</title>
+</head>
+<body>
+    <div class="main-container flex">
+        <div class="formbox-container flex">
+            <p class="formbox-headind font">Secret Message</p>
+
+            <form class="flex form" action="">
+                <input class="myMessage input" type="text" placeholder="Enter your message">
+                <button class="linkBtn button is-success is-light" type="submit">Create Your Link</button>
+            </form>
+
+        </div>
+
+        <div class="hiddenMessage hide">
+            <p class="msg-text font">Your secret message</p>
+            <p class="receivedMsg box"></p>
+
+            <div class="form">
+                <button class="createMsgBtn button is-success is-light">
+                    <a class="link" href="./index.html">Create your own message</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c402b8c651.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
